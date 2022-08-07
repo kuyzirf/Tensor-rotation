@@ -36,11 +36,3 @@ dd_new(3,5)=XX(3,3,1);
 dd_new(3,6)=XX(3,2,1);
 dd_new
 %%
-%Writing to a file for the óomsol
-A=[11;12;13;14;15;16;21;22;23;24;25;26;31;32;33;34;35;36];
-B=[dd_new(1,:),dd_new(2,:),dd_new(3,:)].';
-fileID = fopen('dd_comsol.txt','w');
-for i=[A';B']
-    fprintf(fileID,"d%d %f[pV/m]\n", i(1), i(2));
-end
-fclose(fileID);
