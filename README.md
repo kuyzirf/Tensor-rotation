@@ -15,4 +15,4 @@ Main.m - main matlab file, which rotates $3\times 6$ matrix across  $(x,y,z)$ ax
 
 Mmatrix.m - function, which takes parameters of rotation $(x,y,z,\beta,$ where $x^2+y^2+z^2=1)$ and build rotation matrix $\hat{M}$.
 
-Rotation_tensor.m - function, which takes parameters of rotation $(x,y,z,\beta,$ where $x^2+y^2+z^2=1)$ and initial matrix $RR$($3\times3\times3$) . The result is rotated $RR$ matrix in $3\times3\times3$ form.
+Rotation_tensor.m - function, which takes parameters of rotation $(x,y,z,\beta,$ where $x^2+y^2+z^2=1)$ and initial matrix $RR$($3\times3\times3$). The result is rotated $RR$ matrix in $3\times3\times3$ form.
