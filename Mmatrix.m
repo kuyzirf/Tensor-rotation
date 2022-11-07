@@ -1,5 +1,4 @@
-%матрица поворота на угол beta вокруг произвольной оси
-%Rotation matrix (x,y,z-axis, beta-angle of rotation)
+% Rotation matrix (x,y,z-axis, beta-angle of rotation)
 function MM=Mmatrix(x,y,z,beta) 
 MM=zeros(3,3);
 
