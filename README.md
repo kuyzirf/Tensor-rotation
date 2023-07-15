@@ -1,4 +1,6 @@
 # Tensor-rotation
+See also Nikitina, Anastasia, et al. "Nonlinear circular dichroism in achiral dielectric nanoparticles." Phys. Rev. B, vol. 107, no. 4, 20 Jan. 2023, p. L041405, doi:10.1103/PhysRevB.107.L041405.
+
 General formula is
 $$\chi^{(2)}_{(i j k)\_{\text{rotated}}}= M\_{i a} M\_{j b} M\_{k c} \chi^{(2)}\_{(a b c)\_{\text{underrotated}}}$$
 
